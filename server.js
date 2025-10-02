@@ -16,8 +16,8 @@ const MODEL_MAPPING = {
   'gpt-4': 'tngtech/deepseek-r1t2-chimera',
   'gpt-4-turbo': 'anthropic/claude-3.5-sonnet',
   'tngtech': 'tngtech/deepseek-r1t2-chimera',
-  'claude-3-sonnet': 'anthropic/claude-3.5-sonnet',
-  'deepseek-v3.1': 'deepseek/deepseek-v3.1-terminus'
+  'kimi': 'moonshotai/Kimi-K2-Instruct-0905',
+  'deepseek-v3.1': 'deepseek-ai/DeepSeek-V3.1'
 };
 
 app.get('/health', (req, res) => {
