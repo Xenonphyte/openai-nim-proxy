@@ -14,7 +14,10 @@ const NIM_API_KEY = process.env.NIM_API_KEY;
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'deepseek/deepseek-v3.1-terminus',
   'gpt-4': 'tngtech/deepseek-r1t2-chimera',
-  'gpt-4-turbo': 'anthropic/claude-3.5-sonnet'
+  'gpt-4-turbo': 'anthropic/claude-3.5-sonnet',
+  'tngtech': 'tngtech/deepseek-r1t2-chimera',
+  'claude-3-sonnet': 'anthropic/claude-3.5-sonnet',
+  'deepseek-v3.1': 'deepseek/deepseek-v3.1-terminus'
 };
 
 app.get('/health', (req, res) => {
