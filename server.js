@@ -12,10 +12,6 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
-  'gpt-3.5-turbo': 'deepseek/deepseek-v3.1-terminus',
-  'gpt-4': 'tngtech/deepseek-r1t2-chimera',
-  'gpt-4-turbo': 'anthropic/claude-3.5-sonnet',
-  'tngtech': 'tngtech/deepseek-r1t2-chimera',
   'kimi': 'moonshotai/kimi-k2-instruct-0905',
   'deepseek-r1': 'deepseek-ai/deepseek-r1-0528',
   'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
