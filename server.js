@@ -19,7 +19,8 @@ const MODEL_MAPPING = {
   'kimi': 'moonshotai/kimi-k2-instruct-0905',
   'deepseek-r1': 'deepseek-ai/deepseek-r1-0528',
   'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
-  'oss': 'openai/gpt-oss-120b'
+  'oss': 'openai/gpt-oss-120b',
+  'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2'
 };
 
 app.get('/health', (req, res) => {
