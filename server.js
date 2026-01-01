@@ -17,7 +17,7 @@ const MODEL_MAPPING = {
   'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
   'oss': 'openai/gpt-oss-120b',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
-  'qwen3': 'qwen/qwen3-235b-a22b'
+  'qwen3': 'qwen/qwen3-next-80b-a3b-instruct'
 };
 
 app.get('/health', (req, res) => {
