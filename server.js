@@ -6,14 +6,13 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(cors());
-app.use(express.json({ limit: '500mb' }));
+app.use(express.json({ limit: '1000mb' }));
 
 const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.com/v1';
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
   'glm5': 'z-ai/glm5',
-  'deepseek-v3.1': 'deepseek-ai/deepseek-v3.1',
   'glm': 'z-ai/glm4.7',
   'kimi': 'moonshotai/kimi-k2.5',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
