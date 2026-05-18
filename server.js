@@ -12,11 +12,9 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
-  'glm5': 'z-ai/glm5.1',
+  'glm5': 'z-ai/glm-5.1',
   'deepseek': 'deepseek-ai/deepseek-v4-flash',
-  'kimi': 'moonshotai/kimi-k2.6',
-  'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
-  'qwen3': 'qwen/qwen3-next-80b-a3b-instruct'
+  'kimi': 'moonshotai/kimi-k2.6'
 };
 
 app.get('/health', (req, res) => {
