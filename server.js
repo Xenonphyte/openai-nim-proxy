@@ -13,7 +13,7 @@ const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
   'glm5': 'z-ai/glm5.1',
-  'deepseek': 'deepseek-ai/deepseek-v4-pro',
+  'deepseek': 'deepseek-ai/deepseek-v4-flash',
   'kimi': 'moonshotai/kimi-k2.6',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
   'qwen3': 'qwen/qwen3-next-80b-a3b-instruct'
