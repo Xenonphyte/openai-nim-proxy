@@ -12,7 +12,7 @@ const NIM_API_BASE = process.env.NIM_API_BASE || 'https://integrate.api.nvidia.c
 const NIM_API_KEY = process.env.NIM_API_KEY;
 
 const MODEL_MAPPING = {
-  'glm5': 'z-ai/glm5',
+  'glm5': 'z-ai/glm5.1',
   'deepseek': 'deepseek-ai/deepseek-v4-pro',
   'kimi': 'moonshotai/kimi-k2.6',
   'deepseek-v3.2': 'deepseek-ai/deepseek-v3.2',
