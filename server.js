@@ -15,7 +15,7 @@ const MODEL_MAPPING = {
   'glm5': 'z-ai/glm-5.1',
   'deepseek_f': 'deepseek-ai/deepseek-v4-flash',
   'deepseek': 'deepseek-ai/deepseek-v4-pro',
-  'stepfun': 'stepfun-ai/step-3.7-flash',
+  'stepfun': 'stepfun-ai/step-3.5-flash',
   'kimi': 'moonshotai/kimi-k2.6'
 };
 
