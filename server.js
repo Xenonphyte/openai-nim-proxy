@@ -16,7 +16,7 @@ const MODEL_MAPPING = {
   'deepseek_f': 'deepseek-ai/deepseek-v4-flash',
   'deepseek': 'deepseek-ai/deepseek-v4-pro',
   'kimi': 'moonshotai/kimi-k2.6',
-  'minmax': 'minimaxai/minimax-m3'
+  'minmax': 'minimaxai/minimax-m2.7'
 };
 
 app.get('/health', (req, res) => {
