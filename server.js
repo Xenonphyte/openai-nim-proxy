@@ -16,7 +16,6 @@ const MODEL_MAPPING = {
   'deepseek_f': 'deepseek-ai/deepseek-v4-flash',
   'deepseek': 'deepseek-ai/deepseek-v4-pro',
   'kimi': 'moonshotai/kimi-k2.6',
-  'ink': 'DavidAU/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning',
   'minmax': 'minimaxai/minimax-m2.7'
 };
 
