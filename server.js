@@ -1,3 +1,13 @@
+console.log('Starting server...');
+console.log('NIM_API_KEY present:', !!process.env.NIM_API_KEY);
+console.log('Main file check:', require.main.filename);
+
+if (!process.env.NIM_API_KEY) {
+  console.error('CRITICAL: NIM_API_KEY is missing in Railway Variables!');
+  process.exit(1);
+
+  const express = require('express');
+  
 const express = require('express');
 const cors = require('cors');
 const axios = require('axios');
